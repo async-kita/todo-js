@@ -8,7 +8,24 @@
     <meta
       http-equiv="X-UA-Compatible"
       content="ie=edge">
-    <title>Document</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png">
+    <link
+      rel="manifest"
+      href="./favicon/site.webmanifest">
+    <title>To Do List</title>
     <link
       rel="stylesheet"
       href="./styles/index.css">
@@ -52,7 +69,7 @@
               class="field__input"
               id="search-task"
               type="search"
-              placeholder=" "
+              placeholder
               autocomplete="off"
               data-js-todo-search-task-input>
           </div>
@@ -69,40 +86,6 @@
           </button>
         </div>
         <ul class="todo__list" data-js-todo-list>
-          <li class="todo__item todo-item" data-js-todo-item>
-            <input
-              class="todo-item__checkbox"
-              id="todo-1"
-              type="checkbox"
-              name
-              data-js-todo-item-checkbox>
-            <label
-              class="todo-item__label"
-              for="todo-1"
-              data-js-todo-item-label>
-              todo 1
-            </label>
-            <button
-              class="todo-item__delete-button"
-              type="button"
-              aria-label="Delete"
-              title="Delete"
-              data-js-todo-item-delete-button>
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M15 5L5 15M5 5L15 15"
-                  stroke="#757575"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round" />
-              </svg>
-            </button>
-          </li>
         </ul>
         <div class="todo__empty-message" data-js-todo-empty-message></div>
       </article>

@@ -12,6 +12,10 @@
   box-shadow: var(--box-shadow);
 }
 
+.todo__title {
+  text-align: center;
+}
+
 .todo-item {
   text-align: center;
   font-size: 24px;
